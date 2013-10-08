@@ -75,7 +75,7 @@ TOPLEVEL_MODULES=$(STDLIB_MODULES) n regexp tutorial outcometree topdirs toploop
 TOPLEVEL_CMIS=$(TOPLEVEL_DIR)/toplevel.cmi
 TOPLEVEL_CMOS=$(TOPLEVEL_DIR)/toplevel.cmo $(TOPLEVEL_DIR)/topmain.cmo
 TOPLEVEL_CMAS= \
-  $(CMICOMP_DIR)/js_of_ocaml.cma $(JS_DIR)/compiler/compiler.cma \
+  $(JS_DIR)/lib/js_of_ocaml.cma $(JS_DIR)/compiler/compiler.cma \
   $(TOPLEVELLIB_CMAS) \
   $(OCAMLNUM_DIR)/ocaml-num.cma \
   lessons.cmo \
@@ -83,7 +83,6 @@ TOPLEVEL_CMAS= \
   $(OCPJSLIB_DIR)/ocp-jslib.cma
 
 INCLUDES= \
-   -I $(CMICOMP_DIR) \
    -I $(JS_DIR)/compiler \
    -I $(JS_DIR)/lib \
    -I $(TUTORIAL_DIR)/ \

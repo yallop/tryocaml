@@ -3,7 +3,6 @@
 all: Makefile.config
 	$(MAKE) -C js_of_ocaml
 	$(MAKE) -C js_of_ocaml/compiler compiler.cma
-	$(MAKE) -C cmicomp
 	$(MAKE) -C ocp-jslib
 	$(MAKE) -C ocaml-num
 	$(MAKE) -C toplevel
@@ -15,7 +14,6 @@ Makefile.config:
 	./configure
 
 clean:
-	$(MAKE) -C cmicomp clean
 	$(MAKE) -C ocp-jslib clean
 	$(MAKE) -C toplevel clean
 	$(MAKE) -C ocaml-num clean
@@ -29,7 +27,6 @@ cleanall: clean
 
 depend:
 	$(MAKE) -C js_of_ocaml depend
-	$(MAKE) -C cmicomp depend
 	$(MAKE) -C ocp-jslib depend
 	$(MAKE) -C toplevel depend
 	$(MAKE) -C ocaml-num depend

@@ -15,8 +15,8 @@ toplevel.cma: $(TOPLEVEL_CMOS) $(TOPLEVEL_CMIS)
 	$(OCAMLC) -a -o toplevel.cma $(TOPLEVEL_CMOS)
 
 INCLUDES= \
-   -I $(CMICOMP_DIR) \
    -I $(JS_DIR)/compiler \
+   -I $(JS_DIR)/lib \
    -I $(TUTORIAL_DIR)/ \
    $(INCLUDE_TOPLEVELLIB) \
    -I $(OCAMLNUM_DIR) \
