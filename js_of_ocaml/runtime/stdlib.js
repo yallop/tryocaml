@@ -745,3 +745,85 @@ function caml_get_exception_backtrace () {
 //Provides: caml_sys_getenv
 //Requires: caml_raise_not_found
 function caml_sys_getenv () { caml_raise_not_found (); }
+
+//Provides: caml_sys_const_big_endian
+function caml_sys_const_big_endian () { return 0; }
+//Provides: caml_sys_const_word_size
+function caml_sys_const_word_size () { return 32; }
+//Provides: caml_sys_const_ostype_unix
+function caml_sys_const_ostype_unix () { return 1; }
+//Provides: caml_sys_const_ostype_win32
+function caml_sys_const_ostype_win32 () { return 0;}
+//Provides: caml_sys_const_ostype_cygwin
+function caml_sys_const_ostype_cygwin () { return 0; }
+
+//Provides: caml_convert_raw_backtrace
+function caml_convert_raw_backtrace () { throw new Error("not implemented: caml_convert_raw_backtrace"); } 
+//Provides: caml_dynlink_add_primitive
+function caml_dynlink_add_primitive () { throw new Error("not implemented: caml_dynlink_add_primitive"); } 
+//Provides: caml_dynlink_lookup_symbol
+function caml_dynlink_lookup_symbol () { throw new Error("not implemented: caml_dynlink_lookup_symbol"); } 
+//Provides: caml_dynlink_open_lib
+function caml_dynlink_open_lib () { throw new Error("not implemented: caml_dynlink_open_lib"); } 
+//Provides: caml_gc_full_major
+function caml_gc_full_major () { throw new Error("not implemented: caml_gc_full_major"); } 
+//Provides: caml_get_current_callstack
+function caml_get_current_callstack () { throw new Error("not implemented: caml_get_current_callstack"); } 
+//Provides: caml_get_current_environment
+function caml_get_current_environment () { throw new Error("not implemented: caml_get_current_environment"); } 
+//Provides: caml_get_exception_raw_backtrace
+function caml_get_exception_raw_backtrace () { throw new Error("not implemented: caml_get_exception_raw_backtrace"); } 
+//Provides: caml_install_signal_handler
+function caml_install_signal_handler () { throw new Error("not implemented: caml_install_signal_handler"); } 
+//Provides: caml_invoke_traced_function
+function caml_invoke_traced_function () { throw new Error("not implemented: caml_invoke_traced_function"); } 
+//Provides: caml_md5_chan
+function caml_md5_chan () { throw new Error("not implemented: caml_md5_chan"); } 
+//Provides: caml_ml_channel_size
+function caml_ml_channel_size () { throw new Error("not implemented: caml_ml_channel_size"); } 
+//Provides: caml_ml_channel_size_64
+function caml_ml_channel_size_64 () { throw new Error("not implemented: caml_ml_channel_size_64"); } 
+//Provides: caml_ml_input_int
+function caml_ml_input_int () { throw new Error("not implemented: caml_ml_input_int"); } 
+//Provides: caml_ml_input_scan_line
+function caml_ml_input_scan_line () { throw new Error("not implemented: caml_ml_input_scan_line"); } 
+//Provides: caml_ml_output_int
+function caml_ml_output_int () { throw new Error("not implemented: caml_ml_output_int"); } 
+//Provides: caml_ml_pos_in
+function caml_ml_pos_in () { throw new Error("not implemented: caml_ml_pos_in"); } 
+//Provides: caml_ml_pos_in_64
+function caml_ml_pos_in_64 () { throw new Error("not implemented: caml_ml_pos_in_64"); } 
+//Provides: caml_ml_pos_out
+function caml_ml_pos_out () { throw new Error("not implemented: caml_ml_pos_out"); } 
+//Provides: caml_ml_pos_out_64
+function caml_ml_pos_out_64 () { throw new Error("not implemented: caml_ml_pos_out_64"); } 
+//Provides: caml_ml_seek_in
+function caml_ml_seek_in () { throw new Error("not implemented: caml_ml_seek_in"); } 
+//Provides: caml_ml_seek_in_64
+function caml_ml_seek_in_64 () { throw new Error("not implemented: caml_ml_seek_in_64"); } 
+//Provides: caml_ml_seek_out
+function caml_ml_seek_out () { throw new Error("not implemented: caml_ml_seek_out"); } 
+//Provides: caml_ml_seek_out_64
+function caml_ml_seek_out_64 () { throw new Error("not implemented: caml_ml_seek_out_64"); } 
+//Provides: caml_ml_set_binary_mode
+function caml_ml_set_binary_mode () { throw new Error("not implemented: caml_ml_set_binary_mode"); } 
+//Provides: caml_output_value
+function caml_output_value () { throw new Error("not implemented: caml_output_value"); } 
+//Provides: caml_record_backtrace
+function caml_record_backtrace () { throw new Error("not implemented: caml_record_backtrace"); } 
+//Provides: caml_sys_chdir
+function caml_sys_chdir () { throw new Error("not implemented: caml_sys_chdir"); } 
+//Provides: caml_sys_close
+function caml_sys_close () { throw new Error("not implemented: caml_sys_close"); } 
+//Provides: caml_sys_getcwd
+function caml_sys_getcwd () { throw new Error("not implemented: caml_sys_getcwd"); } 
+//Provides: caml_sys_remove
+function caml_sys_remove () { throw new Error("not implemented: caml_sys_remove"); } 
+//Provides: caml_sys_system_command
+function caml_sys_system_command () { throw new Error("not implemented: caml_sys_system_command"); } 
+//Provides: caml_terminfo_backup
+function caml_terminfo_backup () { throw new Error("not implemented: caml_terminfo_backup"); } 
+//Provides: caml_terminfo_resume
+function caml_terminfo_resume () { throw new Error("not implemented: caml_terminfo_resume"); } 
+//Provides: caml_terminfo_standout
+function caml_terminfo_standout () { throw new Error("not implemented: caml_terminfo_standout"); } 
